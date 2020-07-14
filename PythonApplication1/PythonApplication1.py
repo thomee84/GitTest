@@ -6,3 +6,4 @@ print("dejó")
 na
 miért nem jó
 hm
+mi?
