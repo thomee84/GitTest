@@ -3,3 +3,4 @@ valami
 még egy új sorom van
 negyedik sor
 ötödik sor
+hatodik sor ami nem jó
