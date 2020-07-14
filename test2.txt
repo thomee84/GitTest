@@ -1,3 +1,4 @@
 valami
-új sor
-még egy új sorom van
+Ãºj sor
+mÃ©g egy Ãºj sorom van
+negyedik sor
