@@ -2,4 +2,3 @@ valami
 új sor
 még egy új sorom van
 negyedik sor
-ötödik sor
