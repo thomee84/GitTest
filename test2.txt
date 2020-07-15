@@ -1,8 +1,8 @@
 valami
 új sor
-még egy új sorom van
+még egy új sorom van //módosult
 negyedik sor
-ötödik sor
+ötödik s0R
 de ez a sor kell!
 kell!
 nem kell, de felkerül!
