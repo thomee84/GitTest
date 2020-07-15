@@ -6,3 +6,4 @@ negyedik sor
 de ez a sor kell!
 kell!
 nem kell, de felkerül!
+no!
