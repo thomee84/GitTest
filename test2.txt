@@ -5,3 +5,4 @@ negyedik sor
 ötödik sor
 de ez a sor kell!
 kell!
+kell, de lekerül!
