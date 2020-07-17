@@ -5,3 +5,10 @@ C:\Users\Tomi\source\repos\Gepiras\Gepiras\obj\Debug\Gepiras.csprojAssemblyRefer
 C:\Users\Tomi\source\repos\Gepiras\Gepiras\obj\Debug\Gepiras.csproj.CoreCompileInputs.cache
 C:\Users\Tomi\source\repos\Gepiras\Gepiras\obj\Debug\Gepiras.exe
 C:\Users\Tomi\source\repos\Gepiras\Gepiras\obj\Debug\Gepiras.pdb
+c:\Users\Tomi\source\repos\GitTest\bin\Debug\Gepiras.exe.config
+c:\Users\Tomi\source\repos\GitTest\bin\Debug\Gepiras.exe
+c:\Users\Tomi\source\repos\GitTest\bin\Debug\Gepiras.pdb
+c:\Users\Tomi\source\repos\GitTest\obj\Debug\Gepiras.csprojAssemblyReference.cache
+c:\Users\Tomi\source\repos\GitTest\obj\Debug\Gepiras.csproj.CoreCompileInputs.cache
+c:\Users\Tomi\source\repos\GitTest\obj\Debug\Gepiras.exe
+c:\Users\Tomi\source\repos\GitTest\obj\Debug\Gepiras.pdb
