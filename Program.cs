@@ -16,6 +16,8 @@ namespace Gepiras
             bool again;
             char key = ' ';
             int plays;
+            int valami;
+            int valmi2;
             int counter = 0;
             int szumma;
             Stopwatch stopwatch = new Stopwatch();
