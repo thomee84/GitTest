@@ -1,0 +1,40 @@
+* {
+		box-sizing: border-box;
+}
+
+body {
+  /*background-color: lightblue;*/
+  background-image: url("../pics/bg-body.gif");
+  /*background-repeat: repeat-y;*/
+  background-size: contain;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+h1 {
+  color: navy;
+  border-style: dotted;
+  border-color: tomato green blue yellow;
+  border-width: 20px 5px;
+  margin-left: 20px;
+  background-color: white;
+  opacity: 0.3;
+  
+  margin: 100px 1000px 100px 20px;
+  /*margin-top: 100px;
+  margin-right: 1000px;
+  margin-bottom: 100px;
+  margin-left: 20px;*/
+}
+
+p {
+	color: Tomato;
+	border: 1px solid Brown;
+	margin-left: 200px;
+	
+}
+/*background-color
+background-image
+background-repeat
+background-attachment
+background-position*/
