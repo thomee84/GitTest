@@ -1,38 +1,48 @@
 * {
-		box-sizing: border-box;
+		box-sizing: border-box; /*padding értékével nem növeli a content értékét*/
 }
 
+th>b, td>b { color: yellow; } 
+
 body {
-  /*background-color: lightblue;*/
-  background-image: url("../pics/bg-body.gif");
-  /*background-repeat: repeat-y;*/
-  background-size: contain;
+  background-color: lightblue;	/*háttér színe*/
+  background-image: url("../pics/bg-body.gif"); /*háttérkép, a .. a css könyvtárból egyel fel*/
+  background-repeat: repeat-y;	/*ismétlés az y tengelyen*/
+  background-size: initial;	/*auto, cover (containerhez méretezi, levághat belőle), contain, initial (default)*/
   background-attachment: fixed;
   margin: 0;
 }
 
 h1 {
-  color: navy;
+  color: black;
   border-style: dotted;
   border-color: tomato green blue yellow;
-  border-width: 20px 5px;
+  border-width: 5px 20px 10px 40px;
   margin-left: 20px;
   background-color: white;
   opacity: 0.3;
   
   margin: 100px 1000px 100px 20px;
-  /*margin-top: 100px;
+  margin-top: 100px;
   margin-right: 1000px;
   margin-bottom: 100px;
-  margin-left: 20px;*/
+  margin-left: 20px;
 }
 
 p {
-	color: Tomato;
+	background-color: Tomato;
 	border: 1px solid Brown;
 	margin-left: 200px;
-	
 }
+
+p.kinezet{
+	color: blue;
+	border-style: solid;
+	border-color: green;
+	background-color: white;
+	opacity: 0.8;
+}
+
 /*background-color
 background-image
 background-repeat
