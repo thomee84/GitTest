@@ -2,7 +2,7 @@
 		box-sizing: border-box; /*padding értékével nem növeli a content értékét*/
 }
 
-th>b, td>b { color: yellow; } 
+th>i, td>i { color: yellow; } 
 
 body {
   background-color: lightblue;	/*háttér színe*/
@@ -41,6 +41,13 @@ p.kinezet{
 	border-color: green;
 	background-color: white;
 	opacity: 0.8;
+}
+
+.kitoltes-szoveg
+{
+	background-color: white;
+	max-width: 500px;
+	
 }
 
 /*background-color
