@@ -42,7 +42,9 @@ namespace Car
         {
             return 5 + x;
         }
-        static void Main(string[] args)
+    }
+}
+        /*static void Main(string[] args)
         {
             Car_autó myObj = new Car_autó();
             Console.WriteLine(myObj.color);
@@ -70,4 +72,4 @@ namespace Car
             Console.ReadKey();
         }
     }
-}
+}*/

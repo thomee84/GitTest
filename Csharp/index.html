@@ -19,7 +19,7 @@ használt többször".</p>
 A C# biztosít néhány előre definiált metódust, amik már ismertek, pl.
 a Main() metódus, de saját metódus is létrehozható:</p>
 
-<fieldset>class Program
+<fieldset style="width:500px">class Program
 <br>{
 <br>  static void MyMethod() 
 <br>  {
@@ -35,7 +35,7 @@ a Main() metódus, de saját metódus is létrehozható:</p>
 
 
 
-<fieldset><legend><b>A metódus meghívásához a neve és a (); kell:</b></legend>static void MyMethod() 
+<fieldset style="width:500px"><legend><b>A metódus meghívásához a neve és a (); kell:</b></legend>static void MyMethod() 
 <br>{
 <br>  Console.WriteLine("I just got executed!");
 <br>}
@@ -49,7 +49,7 @@ a Main() metódus, de saját metódus is létrehozható:</p>
 <br>
 
 
-<fieldset><legend><b>Egy metódus többször is meghívható:</b></legend>static void MyMethod() 
+<fieldset style="width:500px"><legend><b>Egy metódus többször is meghívható:</b></legend>static void MyMethod() 
 <br>{
 <br> Console.WriteLine("I just got executed!");
 <br>}
@@ -68,7 +68,7 @@ a Main() metódus, de saját metódus is létrehozható:</p>
 <h2>Metódusok paraméterei</h2>
 
 
-<fieldset><legend><b>A paraméterek változókként léteznek a metódusok belsejében:</b></legend>static void MyMethod(string firstName) 
+<fieldset style="width:500px"><legend><b>A paraméterek változókként léteznek a metódusok belsejében:</b></legend>static void MyMethod(string firstName) 
 <br>{
 <br>  Console.WriteLine(firstName + " Lastname");
 <br>}
@@ -86,7 +86,7 @@ a Main() metódus, de saját metódus is létrehozható:</p>
 </fieldset>
 
 <br>
-<fieldset><legend><b>Alapértelmezett érték beállítása a paraméterre:</b></legend>static void MyMethod(string country = "Norway") 
+<fieldset style="width:500px"><legend><b>Alapértelmezett érték beállítása a paraméterre:</b></legend>static void MyMethod(string country = "Norway") 
 <br>{
 <br>  Console.WriteLine(country);
 <br>}
@@ -105,9 +105,9 @@ a Main() metódus, de saját metódus is létrehozható:</p>
 <br>// USA</fieldset>
 
 <br>
-<fieldset><legend><b>Több paraméter használata:</b></legend>static void MyMethod(string fname, int age) 
+<fieldset style="width:500px"><legend><b>Több paraméter használata:</b></legend>static void MyMethod(string fname, int age) 
 <br>{
-<br>  Console.WriteLine(fname + " is " + age);
+<br>  Console.WriteLine(firstName + " is " + age);
 <br>}
 
 <br>static void Main(string[] args)
@@ -122,9 +122,9 @@ a Main() metódus, de saját metódus is létrehozható:</p>
 <br>// Anja is 31</fieldset>
 <h2>Visszatérési értékek:</h2>
 
-<p>A "void" kulcsszó azt jelzi, hogy a metódusnak nem rendelkezik visszatérési értékkel. Ha visszatérési értéke van, akkor primitív adattípust (például int vagy double) használható "void" helyett, és a visszatérési kulcsszót a metódus belsejében kell használni:</p>
+<p>A "void" kulcsszó azt jelzi, hogy a metódusnak nem rendelkezik visszatérési értékkel. Ha visszatérési értéke van, akkor primitív adattípus (például int vagy double) használható "void" helyett, és a "return" kulcsszót a metódus belsejében kell használni:</p>
 
-<fieldset><legend><b>Visszatérési értékkel:</b></legend>static int MyMethod(int x) 
+<fieldset style="width:500px"><legend><b>Visszatérési értékkel:</b></legend>static int MyMethod(int x) 
 <br>{
 <br>  return 5 + x;
 <br>}
@@ -137,7 +137,7 @@ a Main() metódus, de saját metódus is létrehozható:</p>
 <br>// Outputs 8 (5 + 3)</fieldset>
 
 <br>
-<fieldset><legend><b>Visszatérési értékkel és több paraméterrel:</b></legend>static int MyMethod(int x, int y) 
+<fieldset style="width:500px"><legend><b>Visszatérési értékkel és több paraméterrel:</b></legend>static int MyMethod(int x, int y) 
 <br>{
 <br>  return x + y;
 <br>}
@@ -155,7 +155,7 @@ a Main() metódus, de saját metódus is létrehozható:</p>
 <p>Változóban is tárolható az eredmény (ajánlott, mivel könnyebben olvasható és karbantartható).</p>
 
 
-<fieldset><legend><b>Visszatérési értékel, több paraméterrel, változóban tárolva:</b></legend>
+<fieldset style="width:500px"><legend><b>Visszatérési értékel, több paraméterrel, változóban tárolva:</b></legend>
 static int MyMethod(int x, int y) 
 <br>{
 <br>  return x + y;
@@ -170,7 +170,7 @@ static int MyMethod(int x, int y)
 <br>// Outputs 8 (5 + 3)</fieldset>
 
 <h3>Elnevezett argumentumok:</h3>
-<fieldset>static void MyMethod(string child1, string child2, string child3) 
+<fieldset style="width:500px">static void MyMethod(string child1, string child2, string child3) 
 <br>{
 <br>  Console.WriteLine("The youngest child is: " + child3);
 <br>}
@@ -183,7 +183,7 @@ static int MyMethod(int x, int y)
 <br>// The youngest child is: John</fieldset>
 
 <p>Az elnevezett argumentumok hasznosak mikor több paraméter szerepel alapértelmezett értékkel és csak egyet akarunk specifikálni, mikor meghívjuk.</p>
-<fieldset>static void MyMethod(string child1 = "Liam", string child2 = "Jenny", string child3 = "John")
+<fieldset style="width:500px">static void MyMethod(string child1 = "Liam", string child2 = "Jenny", string child3 = "John")
 <br>{
 <br> Console.WriteLine(child3);
 <br>}
