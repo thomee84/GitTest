@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<!--<link rel="stylesheet" type="text/css" href="css/mystyle.css">-->
+	<title>C#</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-slace=1.0">
+</head>
+<body>
+<h1>C# Metódusok</h1>
+
+<p>A metódus a kód egy blokkja, ami csak akkor fut, amikor meghívják.
+Tudunk hozzáadni adatokat a metódusokhoz, amelyeket paramétereknek hívunk.
+A metódusokat bizonyos műveletek végrehajtására használják (függvények).</p>
+<p>A metódusokat a kód újrafelhasználása miatt használjuk. "Definiáld egyszer, 
+használt többször".</p>
+
+<p>A metódust a nevével definiáljuk, majd () végződik.
+A C# biztosít néhány előre definiált metódust, amik már ismertek, pl.
+a Main() metódus, de saját metódus is létrehozható:</p>
+
+<fieldset>class Program
+<br>{
+<br>  static void MyMethod() 
+<br>  {
+<br>   // code to be executed
+<br>  }
+<br>}</fieldset>
+<br>
+<ul type=square>
+	<li>A MyMethod() a metódus neve.</li>
+	<li>A "static" azt jelenti, hogy a metódus a Program osztályába tartozik és nem a Program osztály egy objektuma.</li>
+	<li>A "void" azt jelenti, hogy ennek a metódusnak nincs visszatérési értéke.</li>
+</ul>
+
+
+
+<fieldset><legend><b>A metódus meghívásához a neve és a (); kell:</b></legend>static void MyMethod() 
+<br>{
+<br>  Console.WriteLine("I just got executed!");
+<br>}
+<br>
+<br>static void Main(string[] args)
+<br>{
+<br>  MyMethod();
+<br>}
+<br>
+<br>// Outputs "I just got executed!"</fieldset>
+<br>
+
+
+<fieldset><legend><b>Egy metódus többször is meghívható:</b></legend>static void MyMethod() 
+<br>{
+<br> Console.WriteLine("I just got executed!");
+<br>}
+<br>
+<br>static void Main(string[] args)
+<br>{
+<br>  MyMethod();
+<br>  MyMethod();
+<br>  MyMethod();
+<br>}
+
+// I just got executed!
+// I just got executed!
+// I just got executed!</fieldset>
+
+<h2>Metódusok paraméterei</h2>
+
+
+<fieldset><legend><b>A paraméterek változókként léteznek a metódusok belsejében:</b></legend>static void MyMethod(string firstName) 
+<br>{
+<br>  Console.WriteLine(firstName + " Lastname");
+<br>}
+
+<br>static void Main(string[] args)
+<br>{
+<br>  MyMethod("Liam");
+<br>  MyMethod("Jenny");
+<br>  MyMethod("Anja");
+<br>}
+
+<br>// Liam Lastname
+<br>// Jenny Lastname
+<br>// Anja Lastname
+</fieldset>
+
+<br>
+<fieldset><legend><b>Alapértelmezett érték beállítása a paraméterre:</b></legend>static void MyMethod(string country = "Norway") 
+<br>{
+<br>  Console.WriteLine(country);
+<br>}
+
+<br>static void Main(string[] args)
+<br>{
+<br>  MyMethod("Sweden");
+<br>  MyMethod("India");
+<br>  MyMethod();
+<br>  MyMethod("USA");
+<br>}
+
+<br>// Sweden
+<br>// India
+<br>// Norway
+<br>// USA</fieldset>
+
+<br>
+<fieldset><legend><b>Több paraméter használata:</b></legend>static void MyMethod(string fname, int age) 
+<br>{
+<br>  Console.WriteLine(fname + " is " + age);
+<br>}
+
+<br>static void Main(string[] args)
+<br>{
+<br>  MyMethod("Liam", 5);
+<br>  MyMethod("Jenny", 8);
+<br>  MyMethod("Anja", 31);
+<br>}
+
+<br>// Liam is 5
+<br>// Jenny is 8
+<br>// Anja is 31</fieldset>
+<h2>Visszatérési értékek:</h2>
+
+<p>A "void" kulcsszó azt jelzi, hogy a metódusnak nem rendelkezik visszatérési értékkel. Ha visszatérési értéke van, akkor primitív adattípust (például int vagy double) használható "void" helyett, és a visszatérési kulcsszót a metódus belsejében kell használni:</p>
+
+<fieldset><legend><b>Visszatérési értékkel:</b></legend>static int MyMethod(int x) 
+<br>{
+<br>  return 5 + x;
+<br>}
+
+<br>static void Main(string[] args)
+<br>{
+<br>  Console.WriteLine(MyMethod(3));
+<br>}
+
+<br>// Outputs 8 (5 + 3)</fieldset>
+
+<br>
+<fieldset><legend><b>Visszatérési értékkel és több paraméterrel:</b></legend>static int MyMethod(int x, int y) 
+<br>{
+<br>  return x + y;
+<br>}
+
+<br>static void Main(string[] args)
+<br>{
+<br>  Console.WriteLine(MyMethod(5, 3));
+<br>}
+
+<br>// Outputs 8 (5 + 3)
+
+<br>// Outputs 8 (5 + 3)</fieldset>
+<br>
+
+<p>Változóban is tárolható az eredmény (ajánlott, mivel könnyebben olvasható és karbantartható).</p>
+
+
+<fieldset><legend><b>Visszatérési értékel, több paraméterrel, változóban tárolva:</b></legend>
+static int MyMethod(int x, int y) 
+<br>{
+<br>  return x + y;
+<br>}
+
+<br>static void Main(string[] args)
+<br>{
+<br>  int z = MyMethod(5, 3);
+<br>  Console.WriteLine(z);
+<br>}
+
+<br>// Outputs 8 (5 + 3)</fieldset>
+
+<h3>Elnevezett argumentumok:</h3>
+<fieldset>static void MyMethod(string child1, string child2, string child3) 
+<br>{
+<br>  Console.WriteLine("The youngest child is: " + child3);
+<br>}
+
+<br>static void Main(string[] args)
+<br>{
+<br>  MyMethod(child3: "John", child1: "Liam", child2: "Liam");
+<br>}
+
+<br>// The youngest child is: John</fieldset>
+
+<p>Az elnevezett argumentumok hasznosak mikor több paraméter szerepel alapértelmezett értékkel és csak egyet akarunk specifikálni, mikor meghívjuk.</p>
+<fieldset>static void MyMethod(string child1 = "Liam", string child2 = "Jenny", string child3 = "John")
+<br>{
+<br> Console.WriteLine(child3);
+<br>}
+
+<br>static void Main(string[] args)
+<br>{
+<br>  MyMethod("child3");
+<br>}
+
+<br>// John</fieldset>
+
+</body>
