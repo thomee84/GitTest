@@ -10,6 +10,7 @@ namespace Car
         static void MyMethod1(string firstName)
         {
             Console.WriteLine(firstName + " lastName");
+            
         }
 
         static int MyMethod2(int x)

@@ -1,0 +1,13 @@
+C:\Users\Tomi\source\repos\GitTest\AdoazonositoJel\AdoazonositoJel\bin\Debug\netcoreapp3.1\AdoazonositoJel.exe
+C:\Users\Tomi\source\repos\GitTest\AdoazonositoJel\AdoazonositoJel\bin\Debug\netcoreapp3.1\AdoazonositoJel.deps.json
+C:\Users\Tomi\source\repos\GitTest\AdoazonositoJel\AdoazonositoJel\bin\Debug\netcoreapp3.1\AdoazonositoJel.runtimeconfig.json
+C:\Users\Tomi\source\repos\GitTest\AdoazonositoJel\AdoazonositoJel\bin\Debug\netcoreapp3.1\AdoazonositoJel.runtimeconfig.dev.json
+C:\Users\Tomi\source\repos\GitTest\AdoazonositoJel\AdoazonositoJel\bin\Debug\netcoreapp3.1\AdoazonositoJel.dll
+C:\Users\Tomi\source\repos\GitTest\AdoazonositoJel\AdoazonositoJel\bin\Debug\netcoreapp3.1\AdoazonositoJel.pdb
+C:\Users\Tomi\source\repos\GitTest\AdoazonositoJel\AdoazonositoJel\obj\Debug\netcoreapp3.1\AdoazonositoJel.csprojAssemblyReference.cache
+C:\Users\Tomi\source\repos\GitTest\AdoazonositoJel\AdoazonositoJel\obj\Debug\netcoreapp3.1\AdoazonositoJel.AssemblyInfoInputs.cache
+C:\Users\Tomi\source\repos\GitTest\AdoazonositoJel\AdoazonositoJel\obj\Debug\netcoreapp3.1\AdoazonositoJel.AssemblyInfo.cs
+C:\Users\Tomi\source\repos\GitTest\AdoazonositoJel\AdoazonositoJel\obj\Debug\netcoreapp3.1\AdoazonositoJel.csproj.CoreCompileInputs.cache
+C:\Users\Tomi\source\repos\GitTest\AdoazonositoJel\AdoazonositoJel\obj\Debug\netcoreapp3.1\AdoazonositoJel.dll
+C:\Users\Tomi\source\repos\GitTest\AdoazonositoJel\AdoazonositoJel\obj\Debug\netcoreapp3.1\AdoazonositoJel.pdb
+C:\Users\Tomi\source\repos\GitTest\AdoazonositoJel\AdoazonositoJel\obj\Debug\netcoreapp3.1\AdoazonositoJel.genruntimeconfig.cache

@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="hu">
+<head>
+	<title>Űrlap</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script>
+        function validate(_this)
+        {
+           if($(_this).attr('id') == "no")
+            {
+                $('#quantity1').attr('required');
+                $('#quantity2').attr('required');
+				$('#quantity3').attr('required');
+				$('#quantity4').attr('required');
+                $('#quantity5').attr('required');
+				$('#quantity6').attr('required');
+				$('#quantity7').attr('required');
+                $('#quantity8').attr('required');
+				$('#quantity9').attr('required');
+				$('#quantity10').attr('required');
+                $('#quantity11').attr('required');
+				$('#quantity12').attr('required');
+				$('#quantity13').attr('required');
+				$('#quantity14').attr('required');
+				$('#quantity15').attr('required');
+				$('#quantity16').attr('required');
+             }
+            else
+             {
+                 $('#quantity1').removeAttr('required');
+                 $('#quantity2').removeAttr('required');
+				 $('#quantity3').removeAttr('required');
+				 $('#quantity4').removeAttr('required');
+                 $('#quantity5').removeAttr('required');
+				 $('#quantity6').removeAttr('required');
+				 $('#quantity7').removeAttr('required');
+                 $('#quantity8').removeAttr('required');
+				 $('#quantity9').removeAttr('required');
+				 $('#quantity10').removeAttr('required');
+                 $('#quantity11').removeAttr('required');
+				 $('#quantity12').removeAttr('required');
+				 $('#quantity13').removeAttr('required');
+				 $('#quantity14').removeAttr('required');
+				 $('#quantity15').removeAttr('required');
+				 $('#quantity16').removeAttr('required');
+             }
+        }
+		
+		</script>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>     	  
+</head>
+<body>
+<form action="test.html" id=radio>
+	<fieldset><legend>Bejelentő űrlap</legend>
+	<fieldset><legend>Megrendelő adatai</legend>
+<table border="1" width="420px">
+<tbody>
+	<tr>
+		<td><label>Név: </label></td>
+		<td><input type="text" id="uf_nev" style="width:200px" required></td>
+		<td style="width:20px"></td>
+		<td><label>Név:</label></td>
+		<td><input type="text" size="25" name="quantity" id="quantity1" style="width:200px" required></td>
+	</tr>
+	
+	<tr>
+		<td><label>Cég neve: </label></td>
+		<td><input type="text" id="nev_cegnev" style="width:200px" required></td>
+		<td style="width:20px"></td>
+		<td><label>Cég neve:</label></td>
+		<td><input type="text" size="25" name="quantity" id="quantity2" style="width:200px" required></td>
+	</tr>
+	
+	<tr>
+		<td><label>Adószám: </label></td>
+		<td><input type="text" id="adoszam" style="width:200px" required></td>
+		<td style="width:20px"></td>
+		<td><label>Adószám</label></td>
+		<td><input type="text" size="25" name="quantity" id="quantity3" style="width:200px" required></td>
+	</tr>
+	<tr>
+		<td><label>Cégjegyzékszám: </label></td>
+		<td><input type="text" id="cegjegyzekszam" style="width:200px" required></td>
+		<td style="width:20px"></td>
+		<td><label>Cégjegyzékszám</label></td>
+		<td><input type="text" size="25" name="quantity" id="quantity4" style="width:200px" required></td>
+	</tr>
+	<tr>
+		<td><label>Születési idő: </label></td>
+		<td><input type="date" id="szulido" style="width:200px" required></td>
+		<td style="width:20px"></td>
+		<td><label>Születési idő:</label></td>
+		<td><input type="date" size="25" name="quantity" id="quantity5" style="width:200px" required></td>
+	</tr>
+	<tr>
+		<td><label>Születési hely: </label></td>
+		<td><input type="text" id="szulhely" style="width:200px" required></td>
+		<td style="width:20px"></td>
+		<td><label>Születési hely:</label></td>
+		<td><input type="text" size="25" name="quantity" id="quantity6" style="width:200px" required></td>
+	</tr>
+	<tr>
+		<td><label>Anyja neve: </label></td>
+		<td><input type="text" id="anyja_neve" style="width:200px" required></td>
+		<td style="width:20px"></td>
+		<td><label>Anyja neve:</label></td>
+		<td><input type="text" size="25" name="quantity" id="quantity7" style="width:200px" style="width:200px" required></td>
+	</tr>
+	<tr>
+		<td><label>Lakcím/számlázási cím: </label></td>
+		<td><input type="text" id="lakcím_szekhely" style="width:200px" required></td>
+		<td style="width:20px"></td>
+		<td><label>Lakcím/számlázási cím:</label></td>
+		<td><input type="text" size="25" name="quantity" id="quantity9" style="width:200px" required></td>
+	</tr>
+	<tr>
+		<td><label>Székhely/számlázási cím: </label></td>
+		<td><input type="text" id="lakcím_szekhely" style="width:200px" required></td>
+		<td style="width:20px"></td>
+		<td><label>Székhely/számlázási cím: </label></td>
+		<td><input type="text" size="25" name="quantity" id="quantity10" style="width:200px" required></td>
+	</tr>	
+	<tr>
+		<td><label>Telefon/FAX: </label></td>
+		<td><input type="tel" id="tel_fax" style="width:200px" title="Telefon/FAX" required></td>
+		<td style="width:20px"td>
+		<td><label>Telefon/FAX</label></td>
+		<td><input type="text" size="25" name="quantity" id="quantity11" style="width:200px" title="Telefon/FAX" required></td>
+	</tr>
+	<tr>
+		<td><label>e-mail: </label></td>
+		<td><input type="e-mail" id="email" style="width:200px" required></td>
+		<td style="width:20px"></td>
+		<td><label>e-mail:</label></td>
+		<td><input type="text" size="25" name="quantity" id="quantity12" style="width:200px" required></td>
+	</tr>
+	<tr>
+		<td><label>Számlaszám: </label></td>
+		<td>  <input type="text" id="szamlaszam" name="szamlaszam" pattern="[0-9]{8}" title="Számlaszám" style="width:53px" alt="valami" required>
+		- <input type="text" id="szamlaszam" name="szamlaszam" pattern="[0-9]{8}" title="Számlaszám" style="width:52px" required>
+		- <input type="text" id="szamlaszam" name="szamlaszam" pattern="[0-9]{8}" title="Számlaszám" style="width:52px" required></td>
+		<td style="width:20px"></td>
+		<td><label>Számlaszám: </label></td>
+		<td>  <input type="text" pattern="[0-9]{8}" name="quantity" id="quantity13"title="Számlaszám" style="width:53px" required>
+		- <input type="text" pattern="[0-9]{8}" name="quantity" id="quantity14"title="Számlaszám" style="width:52px" required>
+		- <input type="text" pattern="[0-9]{8}" name="quantity" id="quantity15"title="Számlaszám" style="width:52px" required></td>
+	</tr>
+	<tr>
+		<td><label>Fizetési mód: </label></td>
+		<td><label for="atutalas">Átutalás </label><input type="radio" id="atutalas" name="valasz">
+		<label for="csekk">Csekk <input type="radio" id="csekk"></td>
+		<td style="width:20px"></td>
+		<td><label title=" Amennyiben a Megrendelő és a Számlafizető személye nem ugyanaz, akkor teljes bizonyító erejű magánokiratba foglalt meghatalmazás csatolása szükséges. A gyorsabb ügyintézés érdekében kérjük a telefonszámot és az email címet is megadni szíveskedjenek!">Meghatalmazás: </label></td>
+		<td><input type="file" placeholder="ideírsz" title=" Amennyiben a Megrendelő és a Számlafizető személye nem ugyanaz, akkor teljes bizonyító erejű magánokiratba foglalt meghatalmazás csatolása szükséges. A gyorsabb ügyintézés érdekében kérjük a telefonszámot és az email címet is megadni szíveskedjenek!" name="quantity" id="quantity16" required></td>
+		<td>
+		<img src="pics/info.png" style="width:25px;height:25px" alt="Info" title=" Amennyiben a Megrendelő és a Számlafizető személye nem ugyanaz, akkor teljes bizonyító erejű magánokiratba foglalt meghatalmazás csatolása szükséges. A gyorsabb ügyintézés érdekében kérjük a telefonszámot és az email címet is megadni szíveskedjenek!">
+		</td>
+	</tr>
+	
+	<tr>
+	<td colspan="2">Számlafizető megegyezik a megrendelővel?</td>
+		<td colspan="3"><input type="radio" name="yes" id="yes" onchange="validate(this)">Igen
+		<input type="radio" name="yes" id="no" onchange="validate(this)">Nem</td>
+	</tr>
+	<tr>
+		<td rowspan="2">Cég/társasház/lakásszövetkezet képviseletében személyesen eljáró személy</td>
+		<td colspan="2">Név</td>
+		<td>Lakcím</td>
+		<td>Telefon/FAX</td>
+	</tr>
+	<tr>
+		<td colspan="2"><input type="text" size="25" style="width:200px" required></td>
+		<td><input type="text" size="25" style="width:200px" required></td>
+		<td><input type="text" size="25" style="width:200px" required></td>
+		
+		
+	</tr>
+	<tr>
+		<td colspan="5">Alulírott Megrendelő feltétlen és visszavonhatatlan kötelezettséget vállalok arra, hogy a fentiekben megrendelt munkavégzés kapcsán felmerülő, a NKM Földgázháolzati Kft. mindenkor érvényes "Szolgáltatási épületgépészeti, és csőfektetési díjszabása" szerinti díjakat a NKM Földgázhálózati Kft. által kibocsátott számla fizetési határidején belül maradéktalanul megfizetem.</td><td><input type="checkbox" required></td>
+	</tr>
+</tbody>
+</fieldset>
+</table>
+<br>
+    <button type="submit" name="insert">Beküldés</button>
+<br>
+<br>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">1 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="test.html">1.1</a>
+      <a href="#">1.1</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+</div>
+
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+</form>
+
+
+</body>	
+</html>
