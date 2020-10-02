@@ -6,7 +6,7 @@ namespace branch_teszt_master
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Ez már a másolat");
         }
     }
 }
