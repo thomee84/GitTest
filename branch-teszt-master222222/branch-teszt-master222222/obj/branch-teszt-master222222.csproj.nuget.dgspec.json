@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Tomi\\source\\repos\\GitTest\\branch-teszt-master\\branch-teszt-master\\branch-teszt-master.csproj": {}
+    "C:\\Users\\Tomi\\source\\repos\\GitTest\\branch-teszt-master222222\\branch-teszt-master222222\\branch-teszt-master222222.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Tomi\\source\\repos\\GitTest\\branch-teszt-master\\branch-teszt-master\\branch-teszt-master.csproj": {
+    "C:\\Users\\Tomi\\source\\repos\\GitTest\\branch-teszt-master222222\\branch-teszt-master222222\\branch-teszt-master222222.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Tomi\\source\\repos\\GitTest\\branch-teszt-master\\branch-teszt-master\\branch-teszt-master.csproj",
-        "projectName": "branch-teszt-master",
-        "projectPath": "c:\\Users\\Tomi\\source\\repos\\GitTest\\branch-teszt-master\\branch-teszt-master\\branch-teszt-master.csproj",
+        "projectUniqueName": "C:\\Users\\Tomi\\source\\repos\\GitTest\\branch-teszt-master222222\\branch-teszt-master222222\\branch-teszt-master222222.csproj",
+        "projectName": "branch-teszt-master222222",
+        "projectPath": "C:\\Users\\Tomi\\source\\repos\\GitTest\\branch-teszt-master222222\\branch-teszt-master222222\\branch-teszt-master222222.csproj",
         "packagesPath": "C:\\Users\\Tomi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Tomi\\source\\repos\\GitTest\\branch-teszt-master\\branch-teszt-master\\obj\\",
+        "outputPath": "C:\\Users\\Tomi\\source\\repos\\GitTest\\branch-teszt-master222222\\branch-teszt-master222222\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tomi\\AppData\\Roaming\\NuGet\\NuGet.Config",

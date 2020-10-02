@@ -6,7 +6,8 @@ namespace branch_teszt_master
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ez már a másolat");
+            Console.WriteLine("Ez pedig a master");
+            Console.WriteLine("Amit modosítottam és most jöhet a merge");
         }
     }
 }
